@@ -35,6 +35,22 @@ video {
     max-width: 500px;
     border-radius: 15px;
 }
+
+.letterBtn {
+    margin-top: 25px;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    background: #ff4da6;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.letterBtn:hover {
+    transform: scale(1.1);
+}
 </style>
 </head>
 
@@ -46,8 +62,13 @@ video {
 
     <video controls>
         <source src="love_story.mp4" type="video/mp4">
-        Your browser does not support video.
     </video>
+
+    <br>
+
+    <button class="letterBtn" onclick="window.location.href='latter.html'">
+        💌 Read Something Special
+    </button>
 
 </div>
 
